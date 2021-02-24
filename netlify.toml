@@ -2,13 +2,7 @@
    for = "/*"
    [headers.values]
     Cache-Control = "no-transform"
-    Content-Security-Policy = '''
-    style-src 'self';
-    default-src 'self';
-    object-src 'none';
-    img-src https:;
-    script-src 'self'
-    'unsafe-inline';
+    Content-Security-Policy = "default-src 'self';"
     frame-ancestors 'none';'''
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
