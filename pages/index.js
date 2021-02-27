@@ -13,9 +13,9 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
         Hi, I am{' '}
-          <a className="text-yellow-600" href="https://nextjs.org">
+          <span className="text-yellow-600">
           Nick Hawn{' '}
-          </a>
+          </span>
           a Software Developer <br/> 
           Based in Grand Rapids Michigan. 
         </h1>
