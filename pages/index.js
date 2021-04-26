@@ -11,6 +11,7 @@ export default function Index({ allPosts }) {
       <Layout>
         <Head>
           <title>Nicholas Hawn | Software Developer Based In Grand Rapids</title>
+          <meta name="description" content="Hi, I am Nicholas Hawn a Software Developer based in Grand Rapids Michigan."></meta>
         </Head>
         <Container>
           <Intro />
