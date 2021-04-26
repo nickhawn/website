@@ -9,7 +9,6 @@
    for = "/*"
    [headers.values]
     Cache-Control = "no-transform"
-    Content-Security-Policy = "default-src 'self';"
     Upgrade-Insecure-Requests = "1"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
