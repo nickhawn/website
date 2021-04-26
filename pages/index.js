@@ -1,5 +1,5 @@
 import Container from '../components/container'
-import Stories from '../components/posts'
+import Stories from '../components/posts/posts'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'

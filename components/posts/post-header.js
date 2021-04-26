@@ -1,6 +1,6 @@
-import { LongDateFormatter } from '../components/date-formatter'
-import CoverImage from '../components/cover-image'
-import PostTitle from '../components/post-title'
+import { LongDateFormatter } from '.1/date-formatter'
+import CoverImage from './cover-image'
+import PostTitle from './post-title'
 
 export default function PostHeader({ title, coverImage, date }) {
   return (

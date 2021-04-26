@@ -1,5 +1,5 @@
-import { LongDateFormatter } from '../components/date-formatter'
-import CoverImage from '../components/cover-image'
+import { LongDateFormatter } from './date-formatter'
+import CoverImage from './cover-image'
 import Link from 'next/link'
 
 export default function HeroPost({
