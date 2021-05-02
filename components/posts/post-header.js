@@ -1,4 +1,4 @@
-import { LongDateFormatter } from '.1/date-formatter'
+import { LongDateFormatter } from './date-formatter'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
 
