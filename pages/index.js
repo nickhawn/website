@@ -1,5 +1,6 @@
 import Container from '../components/container'
 import Stories from '../components/posts/posts'
+import Header from '../components/header'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
@@ -14,6 +15,7 @@ export default function Index({ allPosts }) {
           <meta name="description" content="Hi, I am Nicholas Hawn a Software Developer based in Grand Rapids Michigan."></meta>
         </Head>
         <Container>
+          <Header />
           <Intro />
           {allPosts.length > 0 && <Stories posts={allPosts} />}
         </Container>

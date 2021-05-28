@@ -1,5 +1,5 @@
 import Container from "../components/container";
-import Intro from "../components/intro";
+import Header from "../components/header";
 import Layout from "../components/layout";
 import Head from "next/head";
 
@@ -15,7 +15,7 @@ export default function Index() {
           ></meta>
         </Head>
         <Container>
-          <Intro />
+          <Header />
           <div className="text-center align-middle">
             <h1 className="mb-4 text-4xl md:text-4xl font-bold tracking-tighter leading-tight">
               Not Found

@@ -1,9 +1,18 @@
+
 export default function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-8 mb-16 md:mb-12">
-      <h1 className="md:font-bold tracking-tighter leading-tight md:pr-8">
-        Nicholas Hawn
-      </h1>
-    </section>
-  )
+    <div className="mb-16">
+      <div className="flex justify-center text-center mb-4">
+        <img
+          src="/assets/logo/nick-hawn-logo.png"
+          className="self-center"
+          style={{ maxWidth: 100 }}
+        />
+      </div>
+      <div className="text-center">
+        <p>Hi, I'm Nick Hawn</p>
+        <p>I'm currently creating software at Aptera</p>
+      </div>
+    </div>
+  );
 }
